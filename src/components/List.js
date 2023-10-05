@@ -1,13 +1,14 @@
 import { styled } from "nativewind"
 import { FlatList, Image, Text, View } from "react-native"
-import { DATA } from '../config/server'
 
+import { DATA } from '../config/server';
 
-const ViewStyled = styled(View)
-const TextStyled = styled(Text)
-const ImageStyled = styled(Image)
+const ViewStyled = styled(View);
+const TextStyled = styled(Text);
+const ImageStyled = styled(Image);
 
 export const List = () => {
+    console.log(DATA);
     return (
         <FlatList data={DATA} renderItem={({ index, item }) => (
             <ViewStyled className="mt-5">
