@@ -5,6 +5,7 @@ export const DATA = [
     views: "32k",
     channel: "Rian Limeira",
     thumbnail: "https://github.com/RianLimeira.png",
+    url: "https://github.com/RianLimeira",
   },
   {
     id: "2",
@@ -12,6 +13,7 @@ export const DATA = [
     views: "2k",
     channel: "Rian Limeira",
     thumbnail: "https://github.com/RianLimeira.png",
+    url: "https://github.com/RianLimeira",
   },
   {
     id: "3",
@@ -19,6 +21,7 @@ export const DATA = [
     views: "320k",
     channel: "Rian Limeira",
     thumbnail: "https://github.com/RianLimeira.png",
+    url: "https://github.com/RianLimeira",
   },
   {
     id: "4",
@@ -26,5 +29,6 @@ export const DATA = [
     views: "50k",
     channel: "Rian Limeira",
     thumbnail: "https://github.com/RianLimeira.png",
+    url: "https://github.com/RianLimeira",
   },
 ];
